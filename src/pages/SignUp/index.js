@@ -1,7 +1,18 @@
 import React from 'react';
-
-// import { Container } from './styles';
+import { Link } from 'react-router-dom';
+import logo from '../../assets/logo.svg';
 
 export default function SignUp() {
-  return <div />;
+  return (
+    <>
+      <img src={logo} alt="Logo GoBarber" />
+      <form>
+        <input type="text" placeholder="Seu nome completo" />
+        <input type="email" placeholder="Seu e-mail" />
+        <input type="password" placeholder="Sua senha" />
+        <button type="submit">Criar conta</button>
+        <Link to="/">Já tenho login</Link>
+      </form>
+    </>
+  );
 }

@@ -21,11 +21,11 @@ export default createGlobalStyle`
     font: 14px 'Roboto',sans-serif;
   }
 
-  a{
+  a {
     text-decoration: none;
   }
 
-  ul{
+  ul {
     list-style: none;
   }
 
