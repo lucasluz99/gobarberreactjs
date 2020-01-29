@@ -22,7 +22,7 @@ export const Content = styled.div`
     span {
       align-self: flex-start;
       margin: 0 0 10px;
-      color: #820f0f;
+      color: #fff;
       font-weight: bold;
     }
   }

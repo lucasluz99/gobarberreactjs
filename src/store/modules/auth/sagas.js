@@ -22,8 +22,14 @@ export function* signIn({ payload }) {
     yield put(signInSuccess(token, user));
 
     history.push('/dashboard');
-  } catch (error) {
-    toast.error('E-mail ou senha incorretos');
+  } catch (err) {
+    const { error } = err.response.data;
+    console.tron.log(error);
+    toast.error(
+      error === 'User not found'
+        ? 'Não existe usuário com este e-mail'
+        : 'Senha incorreta'
+    );
     yield put(signFailure());
   }
 }
@@ -38,6 +44,7 @@ export function* signUp({ payload }) {
       password,
       provider: true,
     });
+    toast.success('Conta criada com sucesso');
     yield put(signUpSuccess());
     history.push('/');
   } catch (err) {
