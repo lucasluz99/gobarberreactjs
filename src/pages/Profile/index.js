@@ -1,12 +1,15 @@
 import React from 'react';
 import { Form, Input } from '@rocketseat/unform';
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import { Container } from './styles';
+import { updateProfileRequest } from '../../store/modules/user/actions';
 
 export default function Profile() {
   const profile = useSelector(state => state.user.profile);
-
-  function handleSubmit(data) {}
+  const dispatch = useDispatch();
+  function handleSubmit(data) {
+    dispatch(updateProfileRequest(data));
+  }
   return (
     <Container>
       <Form initialData={profile} onSubmit={handleSubmit}>
