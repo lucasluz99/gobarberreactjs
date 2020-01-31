@@ -6,7 +6,7 @@ import logo from '../../assets/logo-purple.svg';
 import Notifications from '../Notifications';
 
 export default function Header() {
-  const avatar = useSelector(state => state.user.profile.avatar.url);
+  const profile = useSelector(state => state.user.profile);
   return (
     <Container>
       <Content>
@@ -22,7 +22,14 @@ export default function Header() {
               <strong>Lucas Luz</strong>
               <Link to="/profile">Meu Perfil</Link>
             </div>
-            <img src={avatar} alt="Avatar" />
+            <img
+              src={
+                profile.avatar
+                  ? profile.avatar.url
+                  : 'https://api.adorable.io/avatars/120/abott@adorable.png'
+              }
+              alt="Avatar"
+            />
           </Profile>
         </aside>
       </Content>
