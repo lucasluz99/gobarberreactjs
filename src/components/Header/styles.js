@@ -62,6 +62,7 @@ export const Profile = styled.div`
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    border: 1px solid #eee;
     background: #eee;
   }
 
