@@ -1,6 +1,7 @@
-import { all, call, put, takeLatest } from 'redux-saga/effects';
+import { all, call, put, takeLatest, delay } from 'redux-saga/effects';
 import { toast } from 'react-toastify';
 import history from '../../../services/history';
+import handleNetworkError from '../../../services/handleNetworkError';
 import api from '../../../services/api';
 import { signInSuccess, signFailure, signUpSuccess } from './actions';
 
@@ -23,8 +24,10 @@ export function* signIn({ payload }) {
 
     history.push('/dashboard');
   } catch (err) {
+    yield handleNetworkError(err);
+
     const { error } = err.response.data;
-    console.tron.log(error);
+
     toast.error(
       error === 'User not found'
         ? 'Não existe usuário com este e-mail'
@@ -48,6 +51,8 @@ export function* signUp({ payload }) {
     yield put(signUpSuccess());
     history.push('/');
   } catch (err) {
+    yield handleNetworkError(err);
+
     toast.error('Este e-mail já possui uma conta');
     yield put(signFailure());
   }

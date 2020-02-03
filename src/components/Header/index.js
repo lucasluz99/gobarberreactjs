@@ -7,6 +7,7 @@ import Notifications from '../Notifications';
 
 export default function Header() {
   const profile = useSelector(state => state.user.profile);
+  const name = useSelector(state => state.user.profile.name);
   return (
     <Container>
       <Content>
@@ -19,7 +20,7 @@ export default function Header() {
           <Notifications />
           <Profile>
             <div>
-              <strong>Lucas Luz</strong>
+              <strong>{name}</strong>
               <Link to="/profile">Meu Perfil</Link>
             </div>
             <img
