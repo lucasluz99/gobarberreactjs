@@ -1,4 +1,4 @@
-import { all, call, put, takeLatest, delay } from 'redux-saga/effects';
+import { all, call, put, takeLatest } from 'redux-saga/effects';
 import { toast } from 'react-toastify';
 import history from '../../../services/history';
 import handleNetworkError from '../../../services/handleNetworkError';

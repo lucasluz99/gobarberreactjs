@@ -4,7 +4,6 @@ import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import * as Yup from 'yup';
 import { Form, Input } from '@rocketseat/unform';
-import InputEye from '../../components/InputEye';
 import logo from '../../assets/logo.svg';
 import { forgotPasswordRequest } from '../../store/modules/forgotPassword/actions';
 
