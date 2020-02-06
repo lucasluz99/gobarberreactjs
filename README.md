@@ -1,4 +1,4 @@
-Uma aplicação ReactJS parar barbearias administrarem sua agenda
+Uma aplicação ReactJS para barbearias administrarem sua agenda de horários
 
 # Screenshots
 
@@ -28,3 +28,26 @@ Uma aplicação ReactJS parar barbearias administrarem sua agenda
 ## Atualizar perfil
 
 ![updateProfile](https://user-images.githubusercontent.com/53489804/73971212-3c129d00-48fd-11ea-9020-2672225dd5ad.png)
+
+# Sobre o projeto
+
+A versão web do GoBarber é exclusiva para prestadores de serviços.Ou seja,clientes normais que desejam agendar algum atendimento não farão isto através da versão web,farão isto através da versão Mobile.
+
+# Funcionalidades
+
+- Ver a agenda de acordo com a data selecionada.
+- Atualizar dados do perfil.
+- Adicionar Avatar a conta.
+- Recuperação de senha através de token enviado ao e-mail.
+
+# Por quê ?
+
+Construi este projeto em um curso (bootcamp Rocketseat) e este projeto faz parte do meu portifólio pessoal.
+Para explorar o que eu aprendi ao longo do curso resolvi criar algumas funcionalidades a mais que não foram abordadas no curso que foram a **Esqueci minha senha** e uma **função que lida com erros de network** caso haja algum problema com o server,retornando uma resposta visual ao cliente.
+  
+# Iniciando
+
+
+
+
+
