@@ -1,5 +1,3 @@
-Uma aplicação ReactJS para barbearias administrarem sua agenda de horários
-
 # Screenshots
 
 ## Home
