@@ -43,7 +43,7 @@ A versão web do GoBarber é exclusiva para prestadores de serviços.Ou seja,cli
 Construi este projeto em um curso (bootcamp Rocketseat) e este projeto faz parte do meu portifólio pessoal.
 Para explorar o que eu aprendi ao longo do curso resolvi criar algumas funcionalidades a mais que não foram abordadas no curso.Estas funcionalidades são a **Esqueci minha senha** e uma **função que lida com erros de network** caso haja algum problema com o server,retornando uma resposta visual ao cliente.
   
-# Iniciando
+# Inicializando
 
 - 1º clone o repositório
 ````git clone git@github.com:lucasluz99/gobarberreactjs.git````
