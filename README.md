@@ -52,7 +52,7 @@ Para explorar o que eu aprendi ao longo do curso resolvi criar algumas funcional
 - 3º inicie a aplicação
 `yarn start`
 
-Desta forma você terá acesso apenas ao frontend da aplicação,para ter acesso as funcionalidades acesse o repositório do nosso servidor.
+Desta forma você terá acesso apenas ao frontend da aplicação,para ter acesso as funcionalidades acesse o repositório do nosso servidor [GoBarber Server](https://github.com/lucasluz99/gobarber).
 
 
 
