@@ -38,10 +38,6 @@ A versão web do GoBarber é exclusiva para prestadores de serviços.Ou seja,cli
 - Adicionar Avatar a conta.
 - Recuperação de senha através de token enviado ao e-mail.
 
-# O que aprendi desenvolvendo este projeto
-
-
-
 # Por quê ?
 
 Construi este projeto em um curso (bootcamp Rocketseat) e este projeto faz parte do meu portifólio pessoal.
