@@ -2,7 +2,7 @@
 Este projeto faz parte do meu potifólio pessoal. Criei ele no curso GoStack da rocketseat.
 
 **Como forma de me desafiar desenvolvi por conta própria a funcionalidade de 
-recuperação de senha através do envio de um email de recuperação. O envio deste email é feita em segundo plano (Background Jobs) através de uma fila.Também escrevi toda esta a documentação.**
+recuperação de senha através do envio de um email de recuperação. O envio deste email é feita em segundo plano (Background Jobs) através de uma fila.Também escrevi toda esta a documentação.** [GoBarber Server](https://github.com/lucasluz99/gobarber)
 
 # Screenshots
 
