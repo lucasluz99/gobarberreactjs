@@ -1,8 +1,8 @@
-# Por quê ?
+# Sobre o projeto
+Este projeto faz parte do meu potifólio pessoal. Criei ele no curso GoStack da rocketseat.
 
-Construi este projeto em um curso (bootcamp Rocketseat) e este projeto faz parte do meu portifólio pessoal.
-
-**Para explorar o que eu aprendi ao longo do curso resolvi criar uma funcionalidade que não foi abordada no curso.Esta funcionalidade é:  Esqueci minha senha,a recuperação acontece através do envioo de um email**
+**Como forma de me desafiar desenvolvi por conta própria a funcionalidade de 
+recuperação de senha através do envio de um email de recuperação. O envio deste email é feita em segundo plano (Background Jobs) através de uma fila.Também escrevi toda esta a documentação.**
 
 # Screenshots
 
