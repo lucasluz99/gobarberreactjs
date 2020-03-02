@@ -1,3 +1,9 @@
+# Por quê ?
+
+Construi este projeto em um curso (bootcamp Rocketseat) e este projeto faz parte do meu portifólio pessoal.
+
+**Para explorar o que eu aprendi ao longo do curso resolvi criar uma funcionalidade que não foi abordada no curso.Esta funcionalidade é:  Esqueci minha senha,a recuperação acontece através do envioo de um email**
+
 # Screenshots
 
 ## Home
@@ -38,11 +44,6 @@ A versão web do GoBarber é exclusiva para prestadores de serviços.Ou seja,cli
 - Adicionar Avatar a conta.
 - Recuperação de senha através de token enviado ao e-mail.
 
-# Por quê ?
-
-Construi este projeto em um curso (bootcamp Rocketseat) e este projeto faz parte do meu portifólio pessoal.
-
-**Para explorar o que eu aprendi ao longo do curso resolvi criar uma funcionalidade que não foi abordada no curso.Esta funcionalidade é:  Esqueci minha senha,a recuperação acontece através do envioo de um email**
   
 # Inicializando
 
