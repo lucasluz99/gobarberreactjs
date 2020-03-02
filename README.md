@@ -63,6 +63,39 @@ Inicie a aplicação
 
 Desta forma você terá acesso apenas ao frontend da aplicação,para ter acesso as funcionalidades acesse o repositório do nosso servidor [GoBarber Server](https://github.com/lucasluz99/gobarber).
 
+# Contruído com
+
+[React](https://pt-br.reactjs.org/)
+
+[React Router Dom](https://reacttraining.com/react-router/web/guides/quick-start)
+
+[Redux](https://redux.js.org/)
+
+[Redux Saga](https://redux-saga.js.org/)
+
+[axios](https://github.com/axios/axios)
+
+[immer](https://github.com/immerjs/immer)
+
+[polished](https://polished.js.org/docs/#hidevisually)
+
+[react-icons](https://react-icons.netlify.com/#/)
+
+[react-toastify](https://github.com/fkhadra/react-toastify)
+
+[reactotron](https://github.com/infinitered/reactotron)
+
+[redux-persist](https://github.com/rt2zz/redux-persist)
+
+[styled-components](https://styled-components.com/)
+
+[yup](https://github.com/jquense/yup)
+
+[eslint](https://eslint.org/)
+
+[prettier](https://prettier.io/)
+
+
 
 
 
