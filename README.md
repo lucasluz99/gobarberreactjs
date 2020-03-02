@@ -56,6 +56,7 @@ Entre na pasta
 Instale as dependências
 
  `yarn`
+ 
 Inicie a aplicação
 
 `yarn start`
