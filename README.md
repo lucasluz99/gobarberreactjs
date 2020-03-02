@@ -45,13 +45,19 @@ Para explorar o que eu aprendi ao longo do curso resolvi criar algumas funcional
   
 # Inicializando
 
-- 1º clone o repositório
+Clone o repositório
+
 ````git clone git@github.com:lucasluz99/gobarberreactjs.git````
-- 2º entre na pasta
+
+Entre na pasta
+
 `cd gobarberreactjs`
-- 3º instale as dependências
+
+Instale as dependências
+
  `yarn`
-- 4º inicie a aplicação
+Inicie a aplicação
+
 `yarn start`
 
 Desta forma você terá acesso apenas ao frontend da aplicação,para ter acesso as funcionalidades acesse o repositório do nosso servidor [GoBarber Server](https://github.com/lucasluz99/gobarber).
