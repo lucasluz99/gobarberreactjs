@@ -11,7 +11,7 @@ No desenvolimento deste projeto consegui entender o por quê de utilizar framewo
 - **Performance**,o React ,por exemplo, utiliza o Virtual Dom que gera em memória um objeto
 JavaScript com a representação do seu HTML e ao haver alguma alteração no estado da
 aplicação ele gera um novo objeto em memória e através de um algoritmo de “diff” ele
-compara os dois objetos e altera no seu DOM apenas o necessário.
+compara os dois objetos e altera no DOM apenas o necessário.
 - **Reaproveitamento de código** através dos componentes.
 - **Reatividade**, no desenvolvimento com JS puro, toda vez que uma variável é alterada você
 tem que manualmente renderizar a interface. Já os frameworks usam do princípio da
