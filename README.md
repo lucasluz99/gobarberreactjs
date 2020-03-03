@@ -100,7 +100,7 @@ Desta forma você terá acesso apenas ao frontend da aplicação,para ter acesso
 - [date-fns](https://date-fns.org/)
 - [json-server](https://www.npmjs.com/package/json-server)
 - [eslint](https://eslint.org/)
-- [prettier](https://prettier.io
+- [prettier](https://prettier.io)
 
 
 
