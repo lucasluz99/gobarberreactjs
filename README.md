@@ -2,7 +2,7 @@
 Este projeto faz parte do meu potifólio pessoal. Criei ele no curso GoStack da rocketseat.
 
 **Como forma de me desafiar desenvolvi por conta própria a funcionalidade de 
-recuperação de senha através do envio de um email de recuperação. O envio deste email é feita em segundo plano (Background Jobs) através de uma fila.Também escrevi toda esta a documentação.** [GoBarber Server](https://github.com/lucasluz99/gobarber)
+recuperação de senha através do envio de um email de recuperação. O envio deste email é feita em segundo plano (Background Jobs) através de uma fila.Também escrevi toda esta a documentação.** Para saber mais: [GoBarber Server](https://github.com/lucasluz99/gobarber)
 
 # Screenshots
 
@@ -67,37 +67,23 @@ Desta forma você terá acesso apenas ao frontend da aplicação,para ter acesso
 
 # Contruído com
 
-[React](https://pt-br.reactjs.org/)
-
-[React Router Dom](https://reacttraining.com/react-router/web/guides/quick-start)
-
-[Redux](https://redux.js.org/)
-
-[Redux Saga](https://redux-saga.js.org/)
-
-[axios](https://github.com/axios/axios)
-
-[immer](https://github.com/immerjs/immer)
-
-[polished](https://polished.js.org/docs/#hidevisually)
-
-[react-icons](https://react-icons.netlify.com/#/)
-
-[react-toastify](https://github.com/fkhadra/react-toastify)
-
-[reactotron](https://github.com/infinitered/reactotron)
-
-[redux-persist](https://github.com/rt2zz/redux-persist)
-
-[styled-components](https://styled-components.com/)
-
-[yup](https://github.com/jquense/yup)
-
-[eslint](https://eslint.org/)
-
-[prettier](https://prettier.io/)
-
-
+- [React](https://pt-br.reactjs.org/)
+- [React Router Dom](https://reacttraining.com/react-router/web/guides/quick-start)
+- [Redux](https://redux.js.org/)
+- [Redux Saga](https://redux-saga.js.org/)
+- [axios](https://github.com/axios/axios)
+- [immer](https://github.com/immerjs/immer)
+- [polished](https://polished.js.org/docs/#hidevisually)
+- [react-icons](https://react-icons.netlify.com/#/)
+- [react-toastify](https://github.com/fkhadra/react-toastify)
+- [reactotron](https://github.com/infinitered/reactotron)
+- [redux-persist](https://github.com/rt2zz/redux-persist)
+- [styled-components](https://styled-components.com/)
+- [yup](https://github.com/jquense/yup)
+- [date-fns](https://date-fns.org/)
+- [json-server](https://www.npmjs.com/package/json-server)
+- [eslint](https://eslint.org/)
+- [prettier](https://prettier.io
 
 
 
