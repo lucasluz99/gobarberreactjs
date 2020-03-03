@@ -6,22 +6,20 @@ recuperação de senha através do envio de um email de recuperação. O envio d
 
 # O que aprendi com este projeto 
 
-No desenvolimento deste projeto consegui entender o por quê de utilizar frameworks JavaScript no front-end e quais são os problemas que eles resolvem no geral, os problemas são :
-
-- **Reaproveitamento de código** através dos componentes
+No desenvolimento deste projeto consegui entender o por quê de utilizar frameworks JavaScript no front-end e quais são os problemas que eles,em geral,resolvem. Os problemas são :
 
 - **Performance**,o React ,por exemplo, utiliza o Virtual Dom que gera em memória um objeto
 JavaScript com a representação do seu HTML e ao haver alguma alteração no estado da
 aplicação ele gera um novo objeto em memória e através de um algoritmo de “diff” ele
 compara os dois objetos e altera no seu DOM apenas o necessário.
-
+- **Reaproveitamento de código** através dos componentes.
 - **Reatividade**, no desenvolvimento com JS puro, toda vez que uma variável é alterada você
 tem que manualmente renderizar a interface. Já os frameworks usam do princípio da
 reatividade, quando o estado da aplicação é alterado ele automaticamente refletirá essa
 mudança em todos os lugares que utilizem essas variáveis. Assim sendo, garantindo a
 sincronização do estado da aplicação com a interface.
 
-Também aprendi mais a fundo o funcionamento de algumas bibliotecas do ecossistema do React, como o React Router Dom para criação de rotas (publicas e privadas), Redux e Redux Saga para gerenciamento do estado global.
+Também aprendi mais a fundo o funcionamento de algumas bibliotecas do ecossistema do React, como o React Router Dom para criação de rotas (públicas e privadas), Redux e Redux Saga para gerenciamento do estado global.
 
 # Screenshots
 
