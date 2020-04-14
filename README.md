@@ -66,7 +66,7 @@ A versão web do GoBarber é exclusiva para prestadores de serviços.Ou seja,cli
 
 Clone o repositório
 
-````git clone git@github.com:lucasluz99/gobarberreactjs.git````
+````git clone https://github.com/lucasluz99/gobarberreactjs.git````
 
 Entre na pasta
 
